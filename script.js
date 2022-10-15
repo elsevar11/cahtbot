@@ -42,7 +42,7 @@ function getInputValue() {
       cavab=asd;
     }
     else {
-      cavab="başa düşmədim, zəhmət olmasa təzədən yaz."
+      cavab="başa düşmədim, zəhmət olmasa təzədən yaz.";
     }
     var tag2=document.createElement("div"); 
     var text2=document.createTextNode(cavab); 
@@ -53,7 +53,7 @@ function getInputValue() {
     tag2.classList.add("item")
     var objDiv = document.querySelector(".box");
     objDiv.scrollTop = objDiv.scrollHeight;
-    console.log(message);
+       console.log(message);
   }
 
   
